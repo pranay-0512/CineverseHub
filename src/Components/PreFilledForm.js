@@ -3,7 +3,7 @@ import { Button, Form } from "react-bootstrap";
 
 // props -> name
 
-const BookingForm = (props) => {
+const PreFilledForm = (props) => {
   const { name } = props;
 
   const [userDetail, setUserDetail] = useState({
@@ -105,4 +105,4 @@ const BookingForm = (props) => {
   );
 };
 
-export default BookingForm;
+export default PreFilledForm;

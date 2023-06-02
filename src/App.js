@@ -1,7 +1,7 @@
 import { Card } from "react-bootstrap";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import "./App.css";
-import MovieBookingPage from "./Pages/MovieBookingPage";
+import BookingPage from "./Pages/BookingPage";
 import MoviesPage from "./Pages/MoviesPage";
 // use react routers for a single-page-application
 function App() {
@@ -17,7 +17,7 @@ function App() {
         </Link>
         <Routes>
           <Route exact path="/" element={<MoviesPage />} />
-          <Route exact path="/bookmovie/:id" element={<MovieBookingPage />} />
+          <Route exact path="/bookmovie/:id" element={<BookingPage />} />
         </Routes>
       </BrowserRouter>
     </div>

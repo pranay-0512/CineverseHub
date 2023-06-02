@@ -2,7 +2,7 @@ import React from "react";
 
 // props -> movie name, summary, img
 
-const MovieSummary = (props) => {
+const Summary = (props) => {
   const { name, summary, img } = props;
   console.log("summary:-", summary);
 
@@ -20,4 +20,4 @@ const MovieSummary = (props) => {
   );
 };
 
-export default MovieSummary;
+export default Summary;
