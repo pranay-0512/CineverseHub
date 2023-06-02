@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Roboto';
+  background-color: #FFA400;
+  
+}
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #232528;
+    color: #ffffff;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+  .bookingForm{
+      align-self: center;
+      text-align: center;
+  }
+
+  .card-body{
+    color: #ffffff;
+  }
+
+  .button{
+    background-color:#FFA400;
+    border: 1px solid #FFA400;
+    border-radius: 10px;
+    
+  }
+  .button:hover{
+    background-color: #FFA400;
+    border-color: #232528;
+    opacity: .9;
+  }
+  .card-body-title{
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .card-body-text{
+    font-size: 12px;
+    
+  }
+
+  .summary{
+    background-color:#969698;
+    color: #ffffff; 
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .book-button{
+    background-color: #232528;
+    border-radius: 15px;
+    border: #232528;
+  }
+  .book-button:hover{
+    background-color: #232528;
+    opacity: .9;
+  }
+
+  .title-form {
+    font-size: 24px;
+  }
+  #titlename{
+    font-size: 36px;
+    font-weight: 900;
+  }
